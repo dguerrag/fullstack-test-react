@@ -2,8 +2,8 @@ import { IAction } from '../../store/action.type';
 
 
 export enum BeersActionsTypes {
-	GET_BEERS_REQUEST = '[Team] get teams request',
-	GET_BEERS_RESPONSE = '[Team] get teams response'
+	GET_BEERS_REQUEST = '[Beers] get beers request',
+	GET_BEERS_RESPONSE = '[Beers] get beers response'
 }
 
 

@@ -8,7 +8,7 @@ const Beer = (props: any) => {
 		<div className={styles.beer}>
 			<h4>{beer.name}</h4>
 			<p>{beer.tagline}</p>
-			<img src={beer.image_url}/>
+			<img src={beer.image_url} alt={'beer img'}/>
 		</div>
 	);
 };
